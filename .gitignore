@@ -1,0 +1,22 @@
+Visual Studio Build and Junk Files
+.vs/
+bin/
+obj/
+.user
+.suo
+.sln.docstates
+.cache
+
+Project Specific
+.pdb
+.orig
+.log
+
+Database Handling
+!INPUT_DATA/inventory.db
+INPUT_DATA/.db-shm
+INPUT_DATA/.db-wal
+
+OS files
+Thumbs.db
+Desktop.ini
