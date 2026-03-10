@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="EcoWatt.BLL/EcoWatt.BLL.csproj" />
+  <Project Path="EcoWatt.DAL/EcoWatt.DAL.csproj" />
+  <Project Path="EcoWatt.Models/EcoWatt.Models.csproj" />
+  <Project Path="EcoWatt.UI/EcoWatt.UI.csproj" />
+</Solution>

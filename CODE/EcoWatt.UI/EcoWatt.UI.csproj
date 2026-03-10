@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net10.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Include="bin\Debug\net10.0-windows\EcoWatt_Backup.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Page Include="App.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\EcoWatt.BLL\EcoWatt.BLL.csproj" />
+	  <ProjectReference Include="..\EcoWatt.DAL\EcoWatt.DAL.csproj" />
+	  <ProjectReference Include="..\EcoWatt.Models\EcoWatt.Models.csproj" />
+	</ItemGroup>
+
+</Project>

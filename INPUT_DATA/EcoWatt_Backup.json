@@ -1,0 +1,10 @@
+[
+  {
+    "Id": 2,
+    "ApplianceName": "AIRCON",
+    "Wattage": 50,
+    "HoursUsed": 4,
+    "DateLogged": "2026-03-09T18:51:11.5616858+08:00",
+    "UserId": 4
+  }
+]
